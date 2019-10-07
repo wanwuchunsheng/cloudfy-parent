@@ -10,7 +10,6 @@
   	<module>cloudfy-common</module>
   	<module>cloudfy-zuul</module>
   	<module>cloudfy-sso</module>
-  	<module>cloudfy-feign</module>
   	<module>cloudfy-pay</module>
   	<module>cloudfy-web</module>
   	<module>cloudfy-chart</module>

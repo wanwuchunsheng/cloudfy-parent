@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: shianxian-eureka
+  #开启权限认证
+  security:
+    basic:
+      enabled: true
+    user:
+      name: admin
+      password: 123456
+
+server:
+  host: 10.18.9.51
+  port: 8091
+
+eureka:
+  instance:
+    prefer-ip-address: true # 以IP地址注册到服务中心，相互注册使用IP地址
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+# 日志
+logging:
+  level:
+    root: INFO
+  config: classpath:log/logback-spring-test.xml
